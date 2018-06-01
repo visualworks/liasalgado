@@ -4,18 +4,19 @@ Plugin Name: YouTube Embed
 Tags: youtube gallery, video gallery, youtube channel, youtube live, live stream
 Requires at least: 3.6.1
 Tested up to: 4.9
-Stable tag: 11.8.4
+Stable tag: 11.9.1
 License: GPLv3 or later
 
-YouTube Embed WordPress Plugin. Embed a responsive video, YouTube channel gallery, playlist gallery, or YouTube.com live stream
+YouTube Embed WordPress Plugin. Embed a responsive video, YouTube channel gallery, playlist gallery, or YouTube.com live stream (with GDPR options)
 
 == Description ==
 
 **Your WordPress YouTube embed, YouTube gallery (channel and playlist), and even YouTube live stream can be customized in a wide variety of ways with this plugin. Here are a few recently added features:**
 
+* Improved GDPR compliance options: YouTube no cookie, YouTube API restrictions, GDPR consent mode
 * YouTube gallery capability (channel and playlist) – The ability to make playlist and channel embeds have a gallery layout. By default, the plugin can generate a grid-based [responsive playlist or channel gallery >>](https://www.embedplus.com/responsive-youtube-playlist-channel-gallery-for-wordpress.aspx). Your visitors can browse through pages of video thumbnails and choose from videos that are pulled from an entire YouTube channel or playlist.
 * YouTube gallery auto continuous play - embed a playlist or channel gallery and allow it to play one video after the next without requiring viewers to click a thumbnail
-* YouTube Live Stream - Given a link to a YouTube channel, the plugin wizard automatically finds a live stream if one is active in that channel and generates the embed code for you. On the settings page, you can also set defaults of what to automatically display if a live stream is not active at a given moment. For example, you can have your site display a gallery of a channel's entire video library so that users can have something to watch in the meantime. We hope it's a time saver.
+* YouTube Live Stream - Given a link to a YouTube channel, the plugin wizard automatically finds a livestream if one is active in that channel and generates the embed code for you. On the settings page, you can also set defaults of what to automatically display if a live stream is not active at a given moment. For example, you can have your site display a gallery of a channel's entire video library so that users can have something to watch in the meantime. We hope it's a time saver.
 * Improved accessibility by using title attributes for screen reader support. It should help your site pass functional accessibility evaluations (FAE).
 * Improved ajax theme support
 * Site origin information with each embed code as an extra security measure. In YouTube's/Google's own words, checking this option "protects against malicious third-party JavaScript being injected into your page and hijacking control of your YouTube player." We especially recommend checking it as it adds higher security than the built-in YouTube embedding method that comes with the current version of WordPress (i.e. oembed).
@@ -146,6 +147,27 @@ You can also start and end each individual video at particular times. Like the a
 9. YouTube Embed Screenshot 9: Optional YouTube channel subscription button above gallery thumbnails
 
 == Changelog ==
+
+= WordPress YouTube Embed 11.9.1 =
+Improved GDPR compliance, with new Privacy section containing:
+* GDPR consent mode
+* YouTube no cookie
+* YouTube API loading restrictions
+
+= WordPress YouTube Embed 11.8.7 =
+* Helps with GDPR compliance by allowing you to choose when YouTube.com's API is loaded
+
+= WordPress YouTube Embed 11.8.6.1 =
+* Rollback jQuery Updater plugin compatability
+
+= WordPress YouTube Embed 11.8.6 =
+* Updated YouTube API key video tutorial
+* Improved channel wizard process
+* Better compatibility with jQuery Updater plugin
+
+= WordPress YouTube Embed 11.8.5 =
+* Adds the YouTube wizard button to the new built-in WordPress text widget
+* Fixes a Mac/iOS gallery scrolling issue
 
 = WordPress YouTube Embed 11.8.4 =
 * Fixes gallery AJAX issue
